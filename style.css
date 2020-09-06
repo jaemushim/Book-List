@@ -1,0 +1,41 @@
+.card {
+  max-width: 600px;
+  border: 1px solid #eee;
+  padding: 3rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+body {
+  color: #333;
+}
+
+.card__button {
+  margin-top: 1.5rem;
+}
+
+input[type="submit"] {
+  background-color: #fafafa;
+}
+
+input[type="submit"]:hover {
+  background-color: #efefef;
+}
+
+.alert {
+  padding: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.error {
+  background-color: red;
+}
+.success {
+  background-color: green;
+}
+
+.delete {
+  color: red;
+  padding: 0.3rem;
+}
